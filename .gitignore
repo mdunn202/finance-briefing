@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables (NEVER commit this)
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# Mac junk
+.DS_Store
+
+# Generated audio files
+data/*.mp3
+data/*.json
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
